@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+# The Libraries used for this project are:
+
+# Font Awesome
+# Tailwind Css for styling 
+# Flowbite for Component Section
+# Reeact Roouter Dom for routing through the component pages
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

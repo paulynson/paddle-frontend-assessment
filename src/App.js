@@ -11,10 +11,10 @@ import Navbar from './layouts/Navbar';
 
 function App() {
   return (
-    <div className="">
+    <div className="my-0 mx-auto">
         <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="comingsoon" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />

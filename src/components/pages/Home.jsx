@@ -31,7 +31,7 @@ function Home() {
 
 
         <form className='my-8 flex items-center justify-center gap- flex-wrap'>
-            <div className='items-center justify-center gap-4  flex rounded-md '>
+            <div className='items-center justify-center gap-4  flex flex-wrap rounded-md '>
                <div className='block after:bg-transparent border-0 justify-start '>
                 
                    <input type="text"  className='border-0 bg-transparent border-b-2 placeholder:text-xs' placeholder='First Name...' />
@@ -45,9 +45,9 @@ function Home() {
         </form>
 
 <section className='items-center flex justify-center'>
-    <div className="rounded-full border-0 flex justify-between bg-white outline-0">
-        <input type="email" name="" id="" placeholder='Enter your email address' className='px-6 bg-transparent border-0 w-auto  outline-0'/>
-        <input type="button" value="Join our waiting list" className='rounded-full uppercase hover:cursor-pointer bg-blue-700 border-0 text-white py-4 px-7 text-xs w-3/4  outline-0' />
+    <div className="lg:rounded-full border-0 flex flex-wrap lg:flex-nowrap justify-between bg-white outline-0">
+        <input type="email" name="" id="" placeholder='Enter your email address' className='px-6 bg-transparent border-0 lg:w-full w-full  outline-0'/>
+        <input type="button" value="Join our waiting list" className='lg:rounded-full uppercase hover:cursor-pointer bg-blue-700 border-0 text-white py-4 px-7 text-xs lg:w-3/4  outline-0 w-full' />
     </div>
 </section>
 

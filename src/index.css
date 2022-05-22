@@ -4,6 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -19,12 +26,9 @@ code {
 
 .home{
   background: rgb(28,0,61);
-background: linear-gradient(90deg, rgba(28,0,61,1) 0%, rgba(23,0,53,1) 50%);
+background: linear-gradient(90deg, rgba(28,0,61,1) 0%, rgba(23,0,53,1) 50%)
 }
 
 .mtrans{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }

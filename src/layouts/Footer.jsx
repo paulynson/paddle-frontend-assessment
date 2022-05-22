@@ -7,9 +7,9 @@ function Footer() {
   const d = new Date();
 let year = d.getFullYear();
   return (
-    <footer>
-        <section className='home flex flex-col'>
-<div className='footer-icon text-center px-4 my-4 text-2xl text-white flex justify-center gap-6'>
+    <footer className='w-screen'>
+        <section className='home flex flex-col flex-wrap h-60 items-center justify-center'>
+<div className='footer-icon text-center px-4 text-2xl text-white flex justify-center gap-6'>
 
   <FontAwesomeIcon icon={faYoutube} />
   <FontAwesomeIcon icon={faFacebookSquare} />
@@ -17,7 +17,7 @@ let year = d.getFullYear();
   <FontAwesomeIcon icon={faInstagram} />
   <FontAwesomeIcon icon={faTwitterSquare} />
 </div>
-<div className='footer-inner text-center px-4 text-white flex justify-center gap-6'>
+<div className='footer-inner text-center px-4 my-8 text-white flex justify-center gap-6'>
   <Link to="/terms">Terms of services</Link>
   <Link to="/privacy">Privacy Policy</Link>
 </div>
