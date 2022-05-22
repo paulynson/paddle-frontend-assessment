@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <section className='home h-screen w-screen text-center'>
+    <section className='home  w-screen text-center px-10 pb-24'>
         <div className="pt-10">
         <h1 className='uppercase text-white text-4xl font-bold leading-10'>something awesome is <span className='block'>coming soon</span></h1>
         <h5 className='text-white my-4'>Your all-in-one affliate marketing tracking software <span className="font-bold">track, automate </span> and <span className='block'><span className="font-bold">optimize </span> your campaigns.</span></h5>
@@ -45,9 +45,9 @@ function Home() {
         </form>
 
 <section className='items-center flex justify-center'>
-    <div className="rounded-full border-0 flex justify-between bg-white">
-        <input type="email" name="" id="" placeholder='Enter your email address' className='px-6 bg-transparent border-0 w-auto'/>
-        <input type="button" value="Join our waiting list" className='rounded-full uppercase hover:cursor-pointer bg-blue-700 border-0 text-white py-4 px-8 text-xs w-3/4' />
+    <div className="rounded-full border-0 flex justify-between bg-white outline-0">
+        <input type="email" name="" id="" placeholder='Enter your email address' className='px-6 bg-transparent border-0 w-auto  outline-0'/>
+        <input type="button" value="Join our waiting list" className='rounded-full uppercase hover:cursor-pointer bg-blue-700 border-0 text-white py-4 px-7 text-xs w-3/4  outline-0' />
     </div>
 </section>
 
