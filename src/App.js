@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import NotFound from './components/pages/NotFound';
 import Footer from './layouts/Footer';
 import Navbar from './layouts/Navbar';
+import Github from './github/components/Github';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="github" element={<Github />} />
         <Route path="*" element={<NotFound />} />
     </Routes>
      <Footer />

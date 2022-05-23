@@ -5,7 +5,9 @@
 # Font Awesome
 # Tailwind Css for styling 
 # Flowbite for Component Section
-# Reeact Roouter Dom for routing through the component pages
+# React Roouter Dom for routing through the component pages
+# React Paginate Library was used for the pagination of the Github users repository
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
