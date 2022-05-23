@@ -31,10 +31,10 @@ background: linear-gradient(90deg, rgba(28,0,61,1) 0%, rgba(23,0,53,1) 50%)
 
 /* Animation */
 
-.link{
+.linked{
   padding: 4px 6px;
 }
-.link:hover{
+.linked:hover{
   color: white;
   background: blue;
   padding: 4px 6px;
@@ -43,7 +43,7 @@ background: linear-gradient(90deg, rgba(28,0,61,1) 0%, rgba(23,0,53,1) 50%)
 .active{
   color: white !important;
   background: blue;
-  padding: 4px 6px;
+ padding: 7px 12px;
 }
 
 

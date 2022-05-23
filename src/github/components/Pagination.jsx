@@ -13,14 +13,14 @@ function Pagination({ handlePageClick }) {
         pageRangeDisplayed={3}
         onPageChange={handlePageClick}
         containerClassName={'container flex gap-3 my-8 justify-center'}
-        pageClassName={'link'}
-        pageLinkClassName={'link'}
-        previousClassName={'link'}
-        previousLinkClassName={'link'}
-        nextClassName={'link'}
-        nextLinkClassName={'link'}
-        breakLinkClassName={'link'}
-        breakClassName={'link'}
+        pageClassName={'linked'}
+        pageLinkClassName={'linked'}
+        previousClassName={'linked'}
+        previousLinkClassName={'linked'}
+        nextClassName={'linked'}
+        nextLinkClassName={'linked'}
+        breakLinkClassName={'linked'}
+        breakClassName={'linked'}
         activeClassName={'active text-white'}
       />
     </div>
