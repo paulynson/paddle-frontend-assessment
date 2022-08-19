@@ -18,17 +18,17 @@ function Navbar() {
               >
                 Metricks
               </Link>
-    <Link
 
-                to="/github"
 
-                className="text-xl font-semibold  text-white uppercase"
 
-              >
 
-                Metricks
 
-              </Link>
+
+        
+
+                
+
+
     
               <button
                 button
@@ -82,6 +82,25 @@ function Navbar() {
                     About
                   </NavLink>
                 </li>
+
+<li className="my-3 px-4">
+
+                  <NavLink
+
+                    to="/github"
+
+                    className="text-white   rounded-full hover:cursor-pointer hover:text-pink-500 uppercase"
+
+                  >
+
+                   Github Users
+
+                  </NavLink>
+
+                </li>
+
+
+
                 <li className="my-3 px-4">
                   <NavLink
                     to="/blog"
