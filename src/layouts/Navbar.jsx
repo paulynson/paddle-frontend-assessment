@@ -18,6 +18,18 @@ function Navbar() {
               >
                 Metricks
               </Link>
+    <Link
+
+                to="/github"
+
+                className="text-xl font-semibold  text-white uppercase"
+
+              >
+
+                Metricks
+
+              </Link>
+    
               <button
                 button
                 data-collapse-toggle="mobile-menu"
